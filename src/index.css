@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Plus Jakarta Sans', 'Noto Sans Oriya', 'Noto Sans Devanagari', sans-serif;
+    --font-body: 'Manrope', 'Noto Sans Oriya', 'Noto Sans Devanagari', sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  }
+
+  html {
+    font-family: var(--font-body);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Odia and Hindi font utility classes for Multi-Link Builder */
+.font-tapfx-sans {
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Oriya', 'Noto Sans Devanagari', sans-serif;
+}
+
+.font-tapfx-manrope {
+  font-family: 'Manrope', 'Noto Sans Oriya', 'Noto Sans Devanagari', sans-serif;
+}
+
+.font-tapfx-oria {
+  font-family: 'Noto Sans Oriya', 'Manrope', sans-serif;
+}
+
+.font-tapfx-devanagari {
+  font-family: 'Noto Sans Devanagari', 'Manrope', sans-serif;
+}
+
+.font-tapfx-mono {
+  font-family: 'JetBrains Mono', 'Noto Sans Oriya', 'Noto Sans Devanagari', monospace;
+}
+
+.font-tapfx-classic {
+  font-family: Georgia, 'Noto Sans Oriya', 'Noto Sans Devanagari', serif;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

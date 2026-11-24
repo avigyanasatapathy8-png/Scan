@@ -1,0 +1,1569 @@
+{
+  "users": [
+    {
+      "id": "user-owner-1",
+      "name": "Aarav Patnaik",
+      "email": "owner@tapfx.com",
+      "phone": "+91 96922 99405",
+      "role": "owner",
+      "language": "en",
+      "businessId": "biz-kalinga",
+      "planId": "pro",
+      "passwordHash": "5a19977a46d3937424e71702877d2724:e5b82f350be2660af69a58ac0ff728e544e5f0a3014d7dbb74572f49fdee5b5bc6222a7fee103ba7271cc9e624c7c0c2a48a11fd98e3be033560dd6cbfc43243"
+    },
+    {
+      "id": "user-admin-1",
+      "name": "TapFX Operations",
+      "email": "admin@tapfx.com",
+      "phone": "+91 96922 99405",
+      "role": "admin",
+      "language": "en",
+      "businessId": "biz-kalinga",
+      "planId": "pro",
+      "passwordHash": "0f9cdbfcdc1e154054887f09bc4f986a:77cb873cbc5b5dfbdcfc6a6b40495a2093e0aab4927785d05c3f49a3c9dad5c5e2e053a588fcc9f30bd2c212e304e825d4b2124f701cb10999d1fbd4789c59b6"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "500bf9f724481b06f53c2b4572fdcfb339f017f9c7cfc9ae31279644f1c3c218",
+      "userId": "user-owner-1",
+      "createdAt": "2026-11-24T07:14:15.495Z"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "biz-kalinga",
+      "ownerId": "user-owner-1",
+      "name": "Kalinga Spice Bistro",
+      "type": "Restaurant & Cafe",
+      "contactPhone": "+91 96922 99405",
+      "whatsapp": "919692299405",
+      "planId": "pro",
+      "aiDraftsUsedThisMonth": 14,
+      "aiEnabled": true,
+      "replyTone": "warm",
+      "replySignature": "— Team Kalinga Spice",
+      "autoPostPlainPositive": false,
+      "whatsappWeeklyDigest": true,
+      "gstin": "21AABCT1332L1Z5",
+      "defaultOutletId": "outlet-main",
+      "googlePlaceId": "ChIJN1t_tDeuEmsRUsoyG83frY4"
+    }
+  ],
+  "folders": [
+    {
+      "id": "fld-tables",
+      "businessId": "biz-kalinga",
+      "name": "Dining Tables",
+      "createdAt": "2026-10-30T06:51:53.357Z"
+    },
+    {
+      "id": "fld-reviews",
+      "businessId": "biz-kalinga",
+      "name": "Review Counters",
+      "createdAt": "2026-11-04T06:51:53.357Z"
+    },
+    {
+      "id": "fld-wifi",
+      "businessId": "biz-kalinga",
+      "name": "Guest WiFi",
+      "createdAt": "2026-11-09T06:51:53.357Z"
+    }
+  ],
+  "qrCodes": [
+    {
+      "id": "qr-1",
+      "businessId": "biz-kalinga",
+      "name": "Counter Review Stand",
+      "type": "google-review",
+      "isDynamic": true,
+      "shortCode": "kalinga-review",
+      "destinationUrl": "/r/kalinga-review",
+      "contentFields": {
+        "placeId": "ChIJN1t_tDeuEmsRUsoyG83frY4"
+      },
+      "design": {
+        "pattern": "rounded",
+        "fgColor": "#004CF6",
+        "bgColor": "#FFFFFF",
+        "transparentBg": false,
+        "useGradient": true,
+        "gradientId": "royal-tapfx",
+        "gradientStart": "#004CF6",
+        "gradientEnd": "#0098FD",
+        "cornerFrameStyle": "rounded",
+        "cornerDotStyle": "circle",
+        "cornerColor": "#0030C0",
+        "frameStyle": "review-badge",
+        "frameText": "REVIEW US ON GOOGLE",
+        "frameColor": "#004CF6",
+        "logoPreset": "google",
+        "logoSizeRatio": 0.2,
+        "errorCorrection": "H"
+      },
+      "status": "active",
+      "folderId": "fld-reviews",
+      "passwordProtected": false,
+      "outletTag": "Main Counter",
+      "scansCount": 1482,
+      "createdAt": "2026-10-27T06:51:53.357Z",
+      "updatedAt": "2026-11-22T06:51:53.357Z"
+    },
+    {
+      "id": "qr-2",
+      "businessId": "biz-kalinga",
+      "name": "Table 1–8 Digital Menu",
+      "type": "multi-link",
+      "isDynamic": true,
+      "shortCode": "kalinga-menu",
+      "destinationUrl": "/kalinga-bistro",
+      "contentFields": {
+        "slug": "kalinga-bistro"
+      },
+      "design": {
+        "pattern": "circle",
+        "fgColor": "#0F172A",
+        "bgColor": "#FFFFFF",
+        "transparentBg": false,
+        "useGradient": true,
+        "gradientId": "deep-cobalt",
+        "gradientStart": "#0030C0",
+        "gradientEnd": "#004CF6",
+        "cornerFrameStyle": "extra-rounded",
+        "cornerDotStyle": "circle",
+        "cornerColor": "#0030C0",
+        "frameStyle": "restaurant-menu",
+        "frameText": "DIGITAL MENU",
+        "frameColor": "#0F172A",
+        "logoPreset": "restaurant",
+        "logoSizeRatio": 0.19,
+        "errorCorrection": "H"
+      },
+      "status": "active",
+      "folderId": "fld-tables",
+      "passwordProtected": false,
+      "outletTag": "Table 4",
+      "scansCount": 940,
+      "createdAt": "2026-11-03T06:51:53.357Z",
+      "updatedAt": "2026-11-23T06:51:53.357Z"
+    },
+    {
+      "id": "qr-3",
+      "businessId": "biz-kalinga",
+      "name": "WhatsApp Table Ordering",
+      "type": "whatsapp",
+      "isDynamic": true,
+      "shortCode": "kalinga-wa",
+      "destinationUrl": "https://wa.me/919692299405?text=Hi%20Kalinga%20Spice%2C%20I%20would%20like%20to%20order",
+      "contentFields": {
+        "phone": "919692299405",
+        "message": "Hi Kalinga Spice, I would like to order"
+      },
+      "design": {
+        "pattern": "gapped-square",
+        "fgColor": "#065F46",
+        "bgColor": "#FFFFFF",
+        "transparentBg": false,
+        "useGradient": true,
+        "gradientId": "emerald-pine",
+        "gradientStart": "#065F46",
+        "gradientEnd": "#10B981",
+        "cornerFrameStyle": "rounded",
+        "cornerDotStyle": "rounded",
+        "cornerColor": "#065F46",
+        "frameStyle": "classic-bottom",
+        "frameText": "ORDER ON WHATSAPP",
+        "frameColor": "#065F46",
+        "logoPreset": "whatsapp",
+        "logoSizeRatio": 0.2,
+        "errorCorrection": "H"
+      },
+      "status": "active",
+      "folderId": "fld-tables",
+      "passwordProtected": false,
+      "outletTag": "Delivery Desk",
+      "scansCount": 518,
+      "createdAt": "2026-11-10T06:51:53.357Z",
+      "updatedAt": "2026-11-21T06:51:53.357Z"
+    },
+    {
+      "id": "qr-4",
+      "businessId": "biz-kalinga",
+      "name": "Guest Dining WiFi",
+      "type": "wifi",
+      "isDynamic": false,
+      "shortCode": "kalinga-wifi",
+      "destinationUrl": "WIFI:T:WPA;S:Kalinga_Guest_5G;P:Spice2026;;",
+      "contentFields": {
+        "ssid": "Kalinga_Guest_5G",
+        "password": "Spice2026",
+        "encryption": "WPA"
+      },
+      "design": {
+        "pattern": "rounded-h-bars",
+        "fgColor": "#0284C7",
+        "bgColor": "#FFFFFF",
+        "transparentBg": false,
+        "useGradient": true,
+        "gradientId": "sky-horizon",
+        "gradientStart": "#0284C7",
+        "gradientEnd": "#004CF6",
+        "cornerFrameStyle": "leaf",
+        "cornerDotStyle": "circle",
+        "cornerColor": "#004CF6",
+        "frameStyle": "wifi-card",
+        "frameText": "FREE GUEST WIFI",
+        "frameColor": "#0284C7",
+        "logoPreset": "wifi",
+        "logoSizeRatio": 0.18,
+        "errorCorrection": "H"
+      },
+      "status": "active",
+      "folderId": "fld-wifi",
+      "passwordProtected": false,
+      "outletTag": "Lounge",
+      "scansCount": 384,
+      "createdAt": "2026-11-14T06:51:53.357Z",
+      "updatedAt": "2026-11-19T06:51:53.357Z"
+    }
+  ],
+  "scans": [
+    {
+      "id": "scan-1",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-24T06:51:53.357Z",
+      "source": "nfc",
+      "device": "Tablet",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-2",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-23T05:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-3",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-22T04:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-4",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-21T03:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-5",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-20T02:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-6",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-19T01:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-7",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-18T00:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-8",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-16T23:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-9",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-15T22:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-10",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-14T21:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-11",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-13T20:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-12",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-12T19:51:53.357Z",
+      "source": "qr",
+      "device": "Tablet",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-13",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-12T06:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-14",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-11T05:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-15",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-24T04:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-16",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-23T03:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-17",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-22T02:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-18",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-21T01:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-19",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-20T00:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-20",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-18T23:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-21",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-17T22:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-22",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-16T21:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-23",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-15T20:51:53.357Z",
+      "source": "qr",
+      "device": "Tablet",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-24",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-14T19:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-25",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-14T06:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-26",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-13T05:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-27",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-12T04:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-28",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-11T03:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-29",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-24T02:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-30",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-23T01:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-31",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-22T00:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-32",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-20T23:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-33",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-19T22:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-34",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-18T21:51:53.357Z",
+      "source": "nfc",
+      "device": "Tablet",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-35",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-17T20:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-36",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-16T19:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-37",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-16T06:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-38",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-15T05:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-39",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-14T04:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-40",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-13T03:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-41",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-12T02:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-42",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-11T01:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-43",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-24T00:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-44",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-22T23:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-45",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-21T22:51:53.357Z",
+      "source": "qr",
+      "device": "Tablet",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-46",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-20T21:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-47",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-19T20:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-48",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-18T19:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-49",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-18T06:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-50",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-17T05:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-51",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-16T04:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-52",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-15T03:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-53",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-14T02:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-54",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-13T01:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-55",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-12T00:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-56",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-10T23:51:53.357Z",
+      "source": "qr",
+      "device": "Tablet",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-57",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-23T22:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-58",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-22T21:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-59",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-21T20:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Hyderabad",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-60",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-20T19:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Delhi",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-61",
+      "qrId": "qr-1",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-20T06:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bhubaneswar",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-62",
+      "qrId": "qr-2",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-19T05:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Cuttack",
+      "outletTag": "Table 4"
+    },
+    {
+      "id": "scan-63",
+      "qrId": "qr-3",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-18T04:51:53.357Z",
+      "source": "qr",
+      "device": "Mobile",
+      "os": "Android",
+      "city": "Bengaluru",
+      "outletTag": "Main Counter"
+    },
+    {
+      "id": "scan-64",
+      "qrId": "qr-4",
+      "businessId": "biz-kalinga",
+      "scannedAt": "2026-11-17T03:51:53.357Z",
+      "source": "nfc",
+      "device": "Mobile",
+      "os": "iOS",
+      "city": "Mumbai",
+      "outletTag": "Table 4"
+    }
+  ],
+  "linkPages": [
+    {
+      "id": "lp-1",
+      "businessId": "biz-kalinga",
+      "slug": "kalinga-bistro",
+      "name": "Kalinga Spice Bistro",
+      "headline": "Authentic Coastal & Odia Dining · Bhubaneswar",
+      "description": "Browse our live menu, order directly on WhatsApp, check today’s chef specials, or share your experience on Google.",
+      "language": "en",
+      "passwordProtected": false,
+      "blocks": [
+        {
+          "id": "blk-1",
+          "network": "google-review",
+          "label": "Review Us on Google",
+          "url": "/r/kalinga-review",
+          "enabled": true,
+          "clicks": 413
+        },
+        {
+          "id": "blk-2",
+          "network": "whatsapp",
+          "label": "Order Directly on WhatsApp",
+          "url": "https://wa.me/919692299405",
+          "enabled": true,
+          "clicks": 329
+        },
+        {
+          "id": "blk-3",
+          "network": "menu",
+          "label": "View Today’s Menu & Combos",
+          "url": "https://tapfx.com",
+          "enabled": true,
+          "clicks": 518
+        },
+        {
+          "id": "blk-4",
+          "network": "instagram",
+          "label": "Follow @kalingaspice on Instagram",
+          "url": "https://instagram.com/tap.fx",
+          "enabled": true,
+          "clicks": 194
+        },
+        {
+          "id": "blk-5",
+          "network": "maps",
+          "label": "Get Directions (Saheed Nagar)",
+          "url": "https://maps.google.com/?q=20.2961,85.8245",
+          "enabled": true,
+          "clicks": 147
+        },
+        {
+          "id": "blk-6",
+          "network": "phone",
+          "label": "Reserve a Table (+91 96922 99405)",
+          "url": "tel:+919692299405",
+          "enabled": true,
+          "clicks": 88
+        }
+      ],
+      "theme": {
+        "bgColor": "#F4F7FB",
+        "cardBg": "#FFFFFF",
+        "accentColor": "#004CF6",
+        "textColor": "#0F172A",
+        "fontId": "sans",
+        "buttonStyle": "solid-blue"
+      },
+      "viewsCount": 1689,
+      "published": true,
+      "updatedAt": "2026-11-23T06:51:53.357Z"
+    },
+    {
+      "id": "lp-ee4b29a4",
+      "businessId": "biz-public",
+      "slug": "qr-e6e8d9",
+      "name": "Smoke Test Cafe",
+      "headline": "All my important links in one scan",
+      "description": "Scan or tap any button below to connect.",
+      "language": "en",
+      "passwordProtected": false,
+      "blocks": [
+        {
+          "id": "blk-1795504456243-0",
+          "network": "website",
+          "label": "Website",
+          "url": "https://tapfx.com",
+          "enabled": true,
+          "clicks": 0
+        },
+        {
+          "id": "blk-1795504456243-1",
+          "network": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/tap.fx",
+          "enabled": true,
+          "clicks": 0
+        }
+      ],
+      "theme": {
+        "bgColor": "#F4F7FB",
+        "cardBg": "#FFFFFF",
+        "accentColor": "#004CF6",
+        "textColor": "#0F172A",
+        "fontId": "sans",
+        "buttonStyle": "solid-blue"
+      },
+      "viewsCount": 0,
+      "published": true,
+      "updatedAt": "2026-11-24T07:14:16.243Z"
+    }
+  ],
+  "nfcCards": [
+    {
+      "id": "nfc-1",
+      "businessId": "biz-kalinga",
+      "label": "Billing Counter Stand #1",
+      "productType": "stand",
+      "serialCode": "TFX-STD-8841",
+      "status": "active",
+      "assignedQrId": "qr-1",
+      "assignedDestination": "/r/kalinga-review",
+      "programmingUrl": "/q/kalinga-review?src=nfc",
+      "tapsCount": 642,
+      "lastTappedAt": "2026-11-24T06:51:53.357Z",
+      "cardTheme": "royal-blue"
+    },
+    {
+      "id": "nfc-2",
+      "businessId": "biz-kalinga",
+      "label": "Founder Magic Card",
+      "productType": "magic",
+      "serialCode": "TFX-MAG-2049",
+      "status": "active",
+      "assignedQrId": "qr-2",
+      "assignedDestination": "/kalinga-bistro",
+      "programmingUrl": "/q/kalinga-menu?src=nfc",
+      "tapsCount": 319,
+      "lastTappedAt": "2026-11-23T06:51:53.357Z",
+      "cardTheme": "cobalt-metal"
+    },
+    {
+      "id": "nfc-3",
+      "businessId": "biz-kalinga",
+      "label": "Lounge WiFi Tap Card",
+      "productType": "wifi",
+      "serialCode": "TFX-WIF-1092",
+      "status": "active",
+      "assignedQrId": "qr-4",
+      "assignedDestination": "WIFI:T:WPA;S:Kalinga_Guest_5G",
+      "programmingUrl": "/q/kalinga-wifi?src=nfc",
+      "tapsCount": 204,
+      "lastTappedAt": "2026-11-22T06:51:53.357Z",
+      "cardTheme": "pearl-white"
+    }
+  ],
+  "reviewPages": [
+    {
+      "id": "rp-1",
+      "businessId": "biz-kalinga",
+      "outletId": "outlet-main",
+      "code": "kalinga-review",
+      "shopName": "Kalinga Spice Bistro",
+      "shopType": "Restaurant",
+      "googlePlaceId": "ChIJN1t_tDeuEmsRUsoyG83frY4",
+      "mapsUrl": "https://maps.google.com/?cid=10281119596374313554",
+      "instagramUrl": "https://instagram.com/tap.fx",
+      "whatsappNumber": "919692299405",
+      "aiAssistEnabled": true,
+      "quickTags": [
+        "Food quality",
+        "Service speed",
+        "Ambience",
+        "Value for money",
+        "Cleanliness",
+        "Staff politeness"
+      ],
+      "privateFeedbackTarget": "tapfxx@gmail.com",
+      "removeBranding": false,
+      "viewsCount": 1483,
+      "googleClicksCount": 896,
+      "nfcViewsCount": 612,
+      "qrViewsCount": 871
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "businessId": "biz-kalinga",
+      "outletId": "outlet-main",
+      "reviewerName": "Subham Panda",
+      "rating": 5,
+      "text": "Loved the coastal thali and quick table service. Clean dining hall and easy menu QR on the table.",
+      "language": "en",
+      "reviewDate": "2026-11-23T06:51:53.357Z",
+      "replyStatus": "pending"
+    },
+    {
+      "id": "rev-2",
+      "businessId": "biz-kalinga",
+      "outletId": "outlet-main",
+      "reviewerName": "Meera Kulkarni",
+      "rating": 3,
+      "text": "Food taste was good, though weekend wait time for takeaway took around 25 minutes.",
+      "language": "en",
+      "reviewDate": "2026-11-21T06:51:53.357Z",
+      "replyStatus": "drafted",
+      "aiDraft": "Thank you for sharing your feedback, Meera. We are glad you enjoyed the food and sincerely apologise for the 25-minute weekend takeaway wait. Please reach us at +91 96922 99405 so we can ensure faster service next time. — Team Kalinga Spice"
+    },
+    {
+      "id": "rev-3",
+      "businessId": "biz-kalinga",
+      "outletId": "outlet-main",
+      "reviewerName": "Ananya Swain",
+      "rating": 5,
+      "text": "ବହୁତ ସୁନ୍ଦର ଖାଦ୍ୟ ଏବଂ ପରିବେଶ। ପରିବାର ସହ ଆସିବା ପାଇଁ ଉତ୍ତମ ସ୍ଥାନ।",
+      "language": "od",
+      "reviewDate": "2026-11-19T06:51:53.357Z",
+      "replyStatus": "posted",
+      "finalReply": "ଆପଣଙ୍କ ସୁନ୍ଦର ମତାମତ ପାଇଁ ବହୁତ ଧନ୍ୟବାଦ ଅନନ୍ୟା! ପରିବାର ସହ ପୁଣିଥରେ ଆସିବାକୁ ଅନୁରୋଧ। — Team Kalinga Spice",
+      "approvedBy": "Aarav Patnaik",
+      "postedAt": "2026-11-20T06:51:53.357Z"
+    },
+    {
+      "id": "rev-4",
+      "businessId": "biz-kalinga",
+      "outletId": "outlet-main",
+      "reviewerName": "Vikram Joshi",
+      "rating": 4,
+      "text": "खाना बहुत स्वादिष्ट था और सफाई का पूरा ध्यान रखा गया है।",
+      "language": "hi",
+      "reviewDate": "2026-11-18T06:51:53.357Z",
+      "replyStatus": "pending"
+    }
+  ],
+  "privateFeedback": [
+    {
+      "id": "pf-1",
+      "reviewPageCode": "kalinga-review",
+      "businessId": "biz-kalinga",
+      "rating": 3,
+      "message": "AC near the window corner felt slightly warm during lunch rush.",
+      "contactOptional": "Guest at Table 6",
+      "createdAt": "2026-11-22T06:51:53.357Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "slug": "common-card",
+      "name": "TapFX Common Card",
+      "tagline": "Essential NFC + QR smart business card for daily sharing.",
+      "description": "Standard waterproof matte PVC NFC card with custom printed QR code, digital contact details, WhatsApp, social links, website, and Google Review shortcut.",
+      "priceInr": 799,
+      "image": "/src/assets/images/product_common_card_1795502477104.jpg",
+      "features": [
+        "Instant NFC tap + high-contrast QR scan",
+        "Digital contact details (one-tap vCard)",
+        "WhatsApp, social media & website links",
+        "Direct Google Review shortcut",
+        "Personalized business branding & logo"
+      ],
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Matte Waterproof PVC (85.6 × 54 mm)"
+        },
+        {
+          "label": "Chipset",
+          "value": "NTAG215 Universal iOS + Android"
+        },
+        {
+          "label": "Turnaround",
+          "value": "Proof in 24h · Ships in 3–5 days"
+        }
+      ]
+    },
+    {
+      "id": "prod-2",
+      "slug": "master-card",
+      "name": "TapFX Master Card",
+      "tagline": "Premium personalized NFC business card for teams & founders.",
+      "description": "Elevated two-tone precision PVC/composite finish built for professionals, clinics, and hospitality leaders who want multi-link profiles and review routing.",
+      "priceInr": 999,
+      "badge": "Best Seller",
+      "image": "/src/assets/images/product_master_card_1795502476566.jpg",
+      "features": [
+        "Premium personalized front & back layout",
+        "Dual NFC tap + styled dynamic QR code",
+        "Multiple digital links & portfolio showcase",
+        "Google Review + WhatsApp instant actions",
+        "Priority design proofing included"
+      ],
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Heavyweight Satin Composite PVC"
+        },
+        {
+          "label": "Chipset",
+          "value": "High-Sensitivity NTAG215 Dual Antenna"
+        },
+        {
+          "label": "Turnaround",
+          "value": "Proof in 12h · Express Dispatch"
+        }
+      ]
+    },
+    {
+      "id": "prod-3",
+      "slug": "magic-card",
+      "name": "TapFX Magic Card",
+      "tagline": "Flagship anodized NFC + Dynamic QR multi-functional card.",
+      "description": "Executive dark cobalt finish paired with an editable dynamic QR destination, custom multi-link landing page, Google Reviews, location map, and full scan analytics.",
+      "priceInr": 1499,
+      "badge": "Executive",
+      "image": "/src/assets/images/product_magic_card_1795502477838.jpg",
+      "features": [
+        "NFC + Dynamic QR with editable destination",
+        "Custom Multi-Link landing page included",
+        "Google Reviews, WhatsApp & Location links",
+        "Full device, OS & tap vs scan analytics",
+        "Zero-reprint destination switching anytime"
+      ],
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Anodized Brushed Alloy Hybrid Core"
+        },
+        {
+          "label": "Chipset",
+          "value": "Anti-Metal Shielded NTAG215"
+        },
+        {
+          "label": "Turnaround",
+          "value": "Dedicated Proof + Priority Courier"
+        }
+      ]
+    },
+    {
+      "id": "prod-4",
+      "slug": "wifi-card",
+      "name": "TapFX WiFi Card",
+      "tagline": "One-tap guest WiFi sharing card for cafes, hotels & clinics.",
+      "description": "Let guests join your WiFi instantly with one NFC tap or QR scan—no typing long passwords at the counter.",
+      "priceInr": 99,
+      "bundleLabel": "Pack of 10 Cards",
+      "bundlePriceInr": 499,
+      "image": "/src/assets/images/product_acrylic_stand_1795502477859.jpg",
+      "features": [
+        "NFC tap WiFi auto-connect (supported devices)",
+        "Universal WiFi QR code on reverse",
+        "Custom SSID & encrypted password",
+        "Personalized with your shop logo",
+        "Value 10-pack available for multi-table venues"
+      ],
+      "specs": [
+        {
+          "label": "Material",
+          "value": "Compact Gloss/Matte Tap Tag or Card"
+        },
+        {
+          "label": "Pack Options",
+          "value": "Single ₹99 · 10-Pack ₹499"
+        },
+        {
+          "label": "Compatibility",
+          "value": "WPA/WPA2/WPA3 & Open Networks"
+        }
+      ]
+    },
+    {
+      "id": "prod-5",
+      "slug": "acrylic-stand",
+      "name": "TapFX Acrylic QR Stand",
+      "tagline": "Countertop review, menu & payment display with built-in NFC.",
+      "description": "Crystal-clear heavy acrylic tabletop display engineered for billing counters, salon mirrors, clinic receptions, and restaurant tables.",
+      "priceInr": 649,
+      "badge": "For Counters",
+      "image": "/src/assets/images/product_acrylic_stand_1795502477859.jpg",
+      "features": [
+        "High-visibility styled QR + embedded NFC coil",
+        "Custom business name, logo & brand palette",
+        "Google Review, WhatsApp or Menu destination",
+        "Heavy weighted royal-blue or clear base",
+        "Scratch-resistant UV-printed graphics"
+      ],
+      "specs": [
+        {
+          "label": "Material",
+          "value": "5mm Cast Acrylic + Weighted Base"
+        },
+        {
+          "label": "Dimensions",
+          "value": "A5 Tabletop (148 × 210 mm)"
+        },
+        {
+          "label": "Customization",
+          "value": "Full UV Branded Insert + NFC Tap Zone"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1",
+      "orderNumber": "TFX-2026-1042",
+      "businessId": "biz-kalinga",
+      "productSlug": "master-card",
+      "productName": "TapFX Master Card",
+      "quantity": 2,
+      "unitPriceInr": 999,
+      "totalInr": 1998,
+      "paymentMethod": "UPI",
+      "paymentStatus": "paid",
+      "status": "Approval Required",
+      "proofUrl": "/src/assets/images/product_master_card_1795502476566.jpg",
+      "proofApproved": false,
+      "trackingCode": "DLV892041IN",
+      "courierName": "Delhivery Surface",
+      "adminNotes": "Front & back proof uploaded for Kalinga Spice Bistro.",
+      "customization": {
+        "personName": "Aarav Patnaik",
+        "businessName": "Kalinga Spice Bistro",
+        "phone": "+91 96922 99405",
+        "email": "owner@tapfx.com",
+        "website": "https://tapfx.com/kalinga-bistro",
+        "instagram": "@kalingaspice",
+        "whatsapp": "919692299405",
+        "googleReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJN1t_tDeuEmsRUsoyG83frY4",
+        "address": "Saheed Nagar, Bhubaneswar, Odisha 751007",
+        "destinationType": "review",
+        "destinationValue": "/r/kalinga-review",
+        "cardTheme": "royal-blue"
+      },
+      "shippingAddress": {
+        "fullName": "Aarav Patnaik",
+        "phone": "+91 96922 99405",
+        "line1": "Plot 42, Janpath Road, Saheed Nagar",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "pincode": "751007"
+      },
+      "createdAt": "2026-11-22T06:51:53.357Z",
+      "updatedAt": "2026-11-24T06:51:53.357Z"
+    },
+    {
+      "id": "ord-2",
+      "orderNumber": "TFX-2026-1039",
+      "businessId": "biz-kalinga",
+      "productSlug": "acrylic-stand",
+      "productName": "TapFX Acrylic QR Stand",
+      "quantity": 3,
+      "unitPriceInr": 649,
+      "totalInr": 1947,
+      "paymentMethod": "Card",
+      "paymentStatus": "paid",
+      "status": "Shipped",
+      "proofUrl": "/src/assets/images/product_acrylic_stand_1795502477859.jpg",
+      "proofApproved": true,
+      "trackingCode": "BD7741290IN",
+      "courierName": "BlueDart Express",
+      "customization": {
+        "personName": "Reception Desk",
+        "businessName": "Kalinga Spice Bistro",
+        "phone": "+91 96922 99405",
+        "email": "owner@tapfx.com",
+        "website": "https://tapfx.com/kalinga-bistro",
+        "whatsapp": "919692299405",
+        "googleReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJN1t_tDeuEmsRUsoyG83frY4",
+        "address": "Saheed Nagar, Bhubaneswar, Odisha 751007",
+        "destinationType": "multi-link",
+        "destinationValue": "/kalinga-bistro",
+        "cardTheme": "pearl-white"
+      },
+      "shippingAddress": {
+        "fullName": "Aarav Patnaik",
+        "phone": "+91 96922 99405",
+        "line1": "Plot 42, Janpath Road, Saheed Nagar",
+        "city": "Bhubaneswar",
+        "state": "Odisha",
+        "pincode": "751007"
+      },
+      "createdAt": "2026-11-18T06:51:53.357Z",
+      "updatedAt": "2026-11-23T06:51:53.357Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "free",
+      "name": "Free",
+      "audience": "For beginners testing QR & digital profiles",
+      "priceInrMonthly": 0,
+      "maxQrCodes": 10,
+      "maxLinkPages": 1,
+      "maxScansPerMonth": 5000,
+      "maxImageUploads": 10,
+      "maxGoogleProfiles": 0,
+      "maxAiDraftsPerMonth": 10,
+      "analyticsRetentionDays": 15,
+      "removeBranding": false,
+      "customDomainApi": false,
+      "prioritySupport": false,
+      "ctaLabel": "Get Started Free"
+    },
+    {
+      "id": "basic",
+      "name": "Basic",
+      "audience": "For growing local shops and cafes",
+      "priceInrMonthly": 299,
+      "maxQrCodes": -1,
+      "maxLinkPages": 3,
+      "maxScansPerMonth": 50000,
+      "maxImageUploads": 30,
+      "maxGoogleProfiles": 1,
+      "maxAiDraftsPerMonth": 150,
+      "analyticsRetentionDays": 365,
+      "removeBranding": false,
+      "customDomainApi": false,
+      "prioritySupport": true,
+      "ctaLabel": "Choose Basic"
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "audience": "For multi-outlet brands & professionals",
+      "priceInrMonthly": 499,
+      "maxQrCodes": -1,
+      "maxLinkPages": 10,
+      "maxScansPerMonth": 500000,
+      "maxImageUploads": 60,
+      "maxGoogleProfiles": 3,
+      "maxAiDraftsPerMonth": 1000,
+      "analyticsRetentionDays": 1095,
+      "removeBranding": true,
+      "customDomainApi": true,
+      "prioritySupport": true,
+      "ctaLabel": "Choose Pro"
+    }
+  ],
+  "siteConfig": {
+    "promoBanner": {
+      "enabled": true,
+      "text": "Launch Offer: Free custom front & back design proof on all TapFX Master & Magic Cards",
+      "ctaText": "Order Cards",
+      "countdownIso": "2026-11-28T06:51:53.357Z"
+    },
+    "globalAiKillSwitch": false,
+    "faqs": [
+      {
+        "id": "faq-1",
+        "q": "What is TapFX?",
+        "a": "TapFX is an all-in-one QR management SaaS, multi-link digital profile builder, physical NFC card store, and policy-safe Google Review platform for local businesses and professionals."
+      },
+      {
+        "id": "faq-2",
+        "q": "How do dynamic QR codes work?",
+        "a": "Dynamic QR codes encode a fast TapFX short link (/q/your-code). When scanned, TapFX logs anonymized device and city stats and redirects immediately to your destination URL."
+      },
+      {
+        "id": "faq-3",
+        "q": "Can I change my QR destination later?",
+        "a": "Yes. Any dynamic QR code or NFC card destination can be updated in seconds from your TapFX dashboard without reprinting cards, stands, or menus."
+      },
+      {
+        "id": "faq-4",
+        "q": "What is an NFC card?",
+        "a": "An NFC (Near Field Communication) smart card contains a tiny contactless chip. Holding it near the top or back of a smartphone opens your review page, menu, or digital profile instantly."
+      },
+      {
+        "id": "faq-5",
+        "q": "Do NFC cards work on all smartphones?",
+        "a": "Yes—virtually all modern iPhones (XS and newer) and NFC-enabled Android phones read TapFX cards automatically. Every TapFX card also prints a high-contrast QR code on the card for universal camera scanning."
+      },
+      {
+        "id": "faq-6",
+        "q": "Can I create a multi-link page?",
+        "a": "Yes. Use our drag-and-drop Multi-Link Builder with 38+ network icons, Odia and Hindi font support, custom colors, and optional password protection at your own tapfx.com/slug link."
+      },
+      {
+        "id": "faq-7",
+        "q": "Can I track QR scans?",
+        "a": "Yes. Track total scans, NFC vs QR split, 7/30/90-day trends, top-performing QR codes, device/OS breakdown, and approximate city without storing visitor IP addresses."
+      },
+      {
+        "id": "faq-8",
+        "q": "Can I customize my QR code?",
+        "a": "Yes. Choose from 16 QR types, 12 module patterns, 16 gradient palettes or custom colors, corner frame/dot styles, 12 original frames with custom text, and preset or uploaded logos with live scannability checks."
+      },
+      {
+        "id": "faq-9",
+        "q": "How do I order TapFX cards?",
+        "a": "Open the TapFX Products store, select your card or acrylic stand, customize your business details and live front/back proof, and pay via UPI/Card or send directly on WhatsApp."
+      },
+      {
+        "id": "faq-10",
+        "q": "Can I download QR codes for printing?",
+        "a": "Yes. Export transparent or solid PNGs, crisp vector SVGs, and print-ready 300 DPI PDFs sized for 5 cm stickers, 10 cm cards, or A5 tabletop stand inserts."
+      },
+      {
+        "id": "faq-11",
+        "q": "What subscription plans are available?",
+        "a": "Start on our Free plan (up to 10 QR codes and 5,000 monthly scans), or upgrade to Basic (₹299/mo) or Pro (₹499/mo) for unlimited QR codes, branding removal, extended analytics retention, and AI review tools."
+      }
+    ]
+  },
+  "aiUsage": [
+    {
+      "id": "aiu-1",
+      "businessId": "biz-kalinga",
+      "feature": "review-assist",
+      "tokensApprox": 165,
+      "costInr": 0.12,
+      "createdAt": "2026-11-22T06:51:53.357Z"
+    },
+    {
+      "id": "aiu-2",
+      "businessId": "biz-kalinga",
+      "feature": "reply-assist",
+      "tokensApprox": 190,
+      "costInr": 0.14,
+      "createdAt": "2026-11-23T06:51:53.357Z"
+    },
+    {
+      "id": "aiu-3",
+      "businessId": "biz-kalinga",
+      "feature": "insights",
+      "tokensApprox": 420,
+      "costInr": 0.31,
+      "createdAt": "2026-11-24T06:51:53.357Z"
+    }
+  ],
+  "contacts": []
+}

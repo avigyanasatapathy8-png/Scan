@@ -1,0 +1,8 @@
+{
+  "name": "TapFX",
+  "description": "One Tap. Endless Possibilities. Dynamic QR code studio, multi-link digital business pages, NFC smart cards, and policy-safe Google review tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
